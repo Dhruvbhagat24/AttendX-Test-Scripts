@@ -4,6 +4,7 @@ function testAttendanceMarking() {
   const attendanceRequest = {
     studentId: "STU1001",
     courseCode: "CS301",
+    attendanceDate: "2026-10-17",
     status: "Present"
   };
 
