@@ -21,3 +21,5 @@ Each script prints a `PASS` message when its checks succeed.
 ## Git workflow
 
 The scripts are version-controlled so the QA team can collaborate without overwriting each other's work. Changes are staged, committed with meaningful messages, pushed to GitHub, and pulled when remote updates are available.
+
+This line was added directly on GitHub to demonstrate pulling remote changes into the local repository.
