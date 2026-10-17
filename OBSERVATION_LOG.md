@@ -16,6 +16,40 @@
 | `git pull origin main` | Download and merge GitHub changes | Local files include the latest remote edit |
 | `git log --oneline --decorate --all` | Display commit history | Both commits and their messages are listed |
 
+## Actual observed outputs
+
+```text
+git config --global user.name; git config --global user.email
+Dhruv Bhagat
+23cs005@charusat.edu.in
+
+git status --short --branch
+## main...origin/main
+
+git push -u origin main
+To https://github.com/Dhruvbhagat24/AttendX-Test-Scripts.git
+* [new branch] main -> main
+
+git push
+To https://github.com/Dhruvbhagat24/AttendX-Test-Scripts.git
+6c12133..7936f4f main -> main
+
+git pull origin main
+Updating 7936f4f..588e086
+Fast-forward
+ README.md | 4 +++-
+1 file changed, 3 insertions(+), 1 deletion(-)
+
+git log --oneline --decorate --all
+588e086 (HEAD -> main, origin/main) Update README with pull testing note
+7936f4f Update attendance marking test
+6c12133 Add initial AttendX automation tests
+
+git status
+Your branch is up to date with 'origin/main'.
+nothing to commit, working tree clean
+```
+
 ## Commit explanation
 
 - **Add initial AttendX automation tests**: adds the login test, attendance-marking test, README, and this observation log.
