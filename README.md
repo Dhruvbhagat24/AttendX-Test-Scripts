@@ -17,3 +17,5 @@ node attendance_marking_test.js
 ```
 
 Both scripts print a `PASS` message when the example assertions succeed.
+
+Updated directly on GitHub for pull testing.
